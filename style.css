@@ -127,6 +127,30 @@ body{
   }
 
 }
+
+@media screen and (max-width:481px){ /*(min-width: 481px) and (max-width: 767px)*/
+  
+  #header{
+   height: 265px;
+  }
+ 
+ #first_section, #second_section{
+   display:block;
+ }
+
+ #first_section{
+   height: 160px;
+ }
+
+ .sections-first-section,   .sections-first-section:nth-child(odd),   #section-second-section{
+   width: auto;
+ }
+
+ #second_section{
+   height: 60px;
+ }
+}
+
 /*-----*/
 
 #footer{

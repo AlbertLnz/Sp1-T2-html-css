@@ -1,6 +1,5 @@
 body{
   background-color: gainsboro;
-  max-width: 1200px;
 }
 
 #header{
@@ -99,6 +98,35 @@ body{
   margin: 10px 10px 20px 10px;
 }
 
+@media screen and (max-width:768px) { /*Device = Tablets, Ipads (portrait)*/
+
+  #header{
+    width: 100%;
+  }
+
+  #body{
+    display: inline-block;
+    height: 575px;
+    width: 100%;
+  }
+
+  #articles-section{
+    width: auto;
+  }
+
+  #aside{
+    display:flex;
+    width: auto;
+    height: 150px;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  #footer{
+    width: 100%;
+  }
+
+}
 /*-----*/
 
 #footer{
